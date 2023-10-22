@@ -1,15 +1,7 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <HeroSection></HeroSection>
 </template>
 
-<style scoped>
-
-</style>
+<script setup>
+import HeroSection from "./components/Sections/Hero.vue"
+</script>
